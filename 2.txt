@@ -1,0 +1,7 @@
+use csv;
+
+select
+	id,
+    date,
+    date_add(date, interval 1 day)
+from orders;

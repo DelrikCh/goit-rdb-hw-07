@@ -1,0 +1,9 @@
+use csv;
+
+select
+	id,
+    date,
+    year(date),
+    month(date),
+    day(date)
+from orders;

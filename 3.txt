@@ -1,0 +1,7 @@
+use csv;
+
+select
+	id,
+    date,
+    unix_timestamp(date)
+from orders;
